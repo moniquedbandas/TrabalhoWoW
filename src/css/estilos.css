@@ -1,26 +1,56 @@
-body{
+body {
     font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
     background-color: rgba(231, 179, 110, 0.61);
 }
 
-.listaMenu{
+.titulo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titulo span {
+    background-color: rgb(93, 93, 202);
+}
+
+.logo {
+    position: fixed;
+    top: -1em;
+    right: 6rem;
+    width: 120px;
+    height: 100px;
+    background: url(/src/imagens/wowLogo.png) top right;
+    background-size: cover;
+    z-index: 1000;
+}
+
+.listaMenu {
+    border-style: dotted;
+    border-radius: 10px;
+    border-color: rgb(189, 135, 53);
     list-style-type: none;
+    text-align: center;
     margin: 0;
-    padding: 2;
-    width: auto;
+    padding: 0;
     overflow: hidden;
 }
-.menuLi{
-    float:left;    
+
+.menuLi {
+    display: inline-block;
+    margin: 5;
 }
-.menu{
+
+.menu {
     display: inline-block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 3px 16px;
     text-decoration: none;
 }
 
-.listaMenu:hover{
-    background-color: rgba(127, 255, 212, 0.493);
+.listaMenu:hover {
+    background-color: rgba(168, 132, 13, 0.493);
+}
+
+.selecaoFotos{
+    
 }
