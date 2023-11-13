@@ -54,7 +54,7 @@ body {
 .selecaoFotos{
     text-align: center;    
 }
-#imagemPrincipal{
+#imagem{
     display: block;
     margin: 0 auto;
     max-width: 60%;
