@@ -1,5 +1,26 @@
 body{
     font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
-    background-color: rgba(250, 235, 215, 0.61);
+    background-color: rgba(231, 179, 110, 0.61);
+}
+
+.listaMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 2;
+    width: auto;
+    overflow: hidden;
+}
+.menuLi{
+    float:left;    
+}
+.menu{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.listaMenu:hover{
+    background-color: rgba(127, 255, 212, 0.493);
 }
