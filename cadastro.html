@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="src/css/estilos.css">
-    <title>World of Warcraft: where the magic becomes real</title>
+    <link rel="stylesheet" href="src/css/estilosFormulario.css">
+    <title>World of Warcraft: where the magic becomes reality</title>
 </head>
-<body>  
+
+<body>
     <header class="princ">
-    <h3 class="titulo"><span>The best MMORPG in the market!</span></h3>
-    <br>
-    <br>
-    <br>
-    <a href="index.html">
-        <div class="logo"></div>
-    </a>
-</header>
-<nav>
-<ul class="listaMenu">
-    <li class="menuLi"><a class="menu" href="oquee.html">O que é</a></li>
-    <li class="menuLi"><a class="menu" href="quemsomos.html">Quem somos</a></li>
-    <li class="menuLi"><a class="menu" href="plataformas.html">Plataformas</a></li>
-    <li class="menuLi"><a class="menu" href="noticias.html">Notícias</a></li>
-    <li class="menuLi"><a class="menu" href="cadastro.html">Cadastro</a></li>
-</ul>
-</nav>
-<div>
-    <p>essa é a area de cadastro com um formulario</p>
-</div>
+        <h3 class="titulo"><span>The best MMORPG in the market!</span></h3>
+        <br>
+        <br>
+        <br>
+        <a href="index.html">
+            <div class="logo"></div>
+        </a>
+    </header>
+    <nav>
+        <ul class="listaMenu">
+            <li class="menuLi"><a class="menu" href="oquee.html">O que é</a></li>
+            <li class="menuLi"><a class="menu" href="quemsomos.html">Quem somos</a></li>
+            <li class="menuLi"><a class="menu" href="plataformas.html">Plataformas</a></li>
+            <li class="menuLi"><a class="menu" href="noticias.html">Notícias</a></li>
+            <li class="menuLi"><a class="menu" href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </nav>
+    <div class="formCadastro">
+        <h2 class="tituloCadastro">Cadastre-se conosco</h2>
+        <form>
+            <h3>Nome:</h3>
+            <input type="text" id="nome" name="nome" required placeholder="Informe seu nome">
+            <h3>Nascimento:</h3>
+            <input type="date" id="nascimento" name="nascimento" required>
+            <h3>Telefone:</h3>
+            <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx">
+            <h3>Email:</h3>
+            <input type="email" id="email" name="email" required placeholder="example@example.com">
+            <h3>Local:</h3>
+            <input type="text" id="local" name="local" required placeholder="Localidade">
+            <br>
+            <br><br>
+            <input type="submit" id="cadastrar" name="Cadastrar"
+
+
+        </form>
+    </div>
 </body>
+
 </html>

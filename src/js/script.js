@@ -10,7 +10,7 @@ function mostrarSlide(numeroSlide) {
     }
     var slideAtual = document.getElementById('slide' + numeroSlide);
     if (slideAtual) {
-        slideAtual.style.display = 'block';
+        slideAtual.style.display = 'block';//se o slide atual existir, a imagem aparece
     }
 }
 

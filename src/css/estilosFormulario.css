@@ -1,0 +1,48 @@
+.formCadastro {
+    border-style: outset;
+    margin: auto;
+    margin-top: 50px;
+    max-width: 30rem;
+    padding: 20px;
+}
+
+.tituloCadastro {
+    text-align: center;
+}
+
+input {
+    background-color: #f0f0f0;    /* Cor de fundo */
+    color: #333;    /* Cor do texto */
+    border: 1px solid #ccc;  /* Borda com cor cinza */
+    border-radius: 9px;  /* Bordas arredondadas */
+    padding: 8px;    /* Espaçamento interno */
+    margin: 6px;    /* Margens ao redor do input */
+    outline: none;  /* Tira as bordas pretas do input */
+    width: 400px;   /* Aumenta o tamanho da largura do input */
+}
+
+input:focus {
+    border: 1px solid #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+input:focus::placeholder {
+    color: transparent;
+    /* Torna o "placeholder" transparente quando focado */
+}
+
+#cadastrar {
+    background-color: rgba(86, 87, 35, 0.541);
+    margin: 0 auto;
+    color: #111111;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    display: block;
+}
+
+#cadastrar:hover {
+    background-color: rgb(245, 135, 10);
+}
