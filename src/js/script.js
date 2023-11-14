@@ -18,8 +18,8 @@ function proximoSlide() {
     slideAtual++;
     if (slideAtual > 9) {
         slideAtual = 1;
-    }
-    mostrarSlide(slideAtual);
+    }//se o slide atual for maior que 9, ele volta para o primeiro slide
+    mostrarSlide(slideAtual);//chama a função de mostrar o slide com o slideAtual como parametro
 }
 
 setInterval(proximoSlide, 4000);
