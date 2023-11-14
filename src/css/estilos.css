@@ -3,14 +3,17 @@ body {
     font-size: 0.9em;
     background-color: rgba(231, 179, 110, 0.61);
 }
-
+.slide{
+    display: none;
+/* utilizo esse comando para a pagina iniciar sem os slides, ate que eles sejam todos carregados, qdo forem carregados, os slides aparecerão */
+}
 .titulo {
     text-align: center;
     text-transform: uppercase;
 }
 
 .titulo span {
-    background-color: rgb(93, 93, 202);
+    background-color: rgba(218, 215, 12, 0.815));
 }
 
 .logo {
