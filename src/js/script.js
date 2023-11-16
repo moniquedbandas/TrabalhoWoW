@@ -1,4 +1,3 @@
-
 var slideAtual = 1;
 
 function mostrarSlide(numeroSlide) {
