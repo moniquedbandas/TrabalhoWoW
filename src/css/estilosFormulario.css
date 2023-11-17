@@ -1,9 +1,50 @@
-.formCadastro {
+/* .formCadastro {
     border-style: groove;
     margin: auto;
     margin-top: 50px;
     max-width: 30rem;
     padding: 20px;
+} */
+.formContainer {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.imagens {
+    width: 200px;
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin: 0 200px; /* Espaço entre as imagens e o formulário */
+}
+
+/* Estilize as imagens */
+.formContainer img {
+    width: 200px;
+    /* Ajuste conforme necessário */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    margin-left: 50px;
+}
+
+/* Estilize o contêiner das imagens e do formulário */
+.formEImagens {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    margin: 0;
+    width: 100%; /* Ocupa toda a largura disponível */
+}
+
+/* Estilize o formulário conforme necessário */
+.formCadastro {
+    background-color: rgba(128, 255, 0, 0.171);
+    border-style: groove;
+    max-width: 30rem;
+    padding: 20px;
+    width: 500px;
+    /* Ajuste conforme necessário */
 }
 
 .tituloCadastro {
@@ -11,14 +52,22 @@
 }
 
 input {
-    background-color: #f0f0f0;    /* Cor de fundo */
-    color: #333;    /* Cor do texto */
-    border: 1px solid #ccc;  /* Borda com cor cinza */
-    border-radius: 9px;  /* Bordas arredondadas */
-    padding: 8px;    /* Espaçamento interno */
-    margin: 6px;    /* Margens ao redor do input */
-    outline: none;  /* Tira as bordas pretas do input */
-    width: 400px;   /* Aumenta o tamanho da largura do input */
+    background-color: #f0f0f0;
+    /* Cor de fundo */
+    color: #333;
+    /* Cor do texto */
+    border: 1px solid #ccc;
+    /* Borda com cor cinza */
+    border-radius: 9px;
+    /* Bordas arredondadas */
+    padding: 8px;
+    /* Espaçamento interno */
+    margin: 6px;
+    /* Margens ao redor do input */
+    outline: none;
+    /* Tira as bordas pretas do input */
+    width: 400px;
+    /* Aumenta o tamanho da largura do input */
 }
 
 input:focus {
@@ -45,4 +94,14 @@ input:focus::placeholder {
 
 #cadastrar:hover {
     background-color: rgb(245, 135, 10);
+}
+
+input:invalid+span:after {
+    content: "✖";
+    padding-left: 5px;
+}
+
+input:valid+span:after {
+    content: "✓";
+    padding-left: 5px;
 }

@@ -29,25 +29,38 @@
             <li class="menuLi"><a class="menu" href="cadastro.html">Cadastro</a></li>
         </ul>
     </nav>
-    <div class="formCadastro">
-        <h2 class="tituloCadastro">Cadastre-se conosco</h2>
-        <form>
-            <h3>Nome:</h3>
-            <input type="text" id="nome" name="nome" required placeholder="Informe seu nome">
-            <h3>Nascimento:</h3>
-            <input type="date" id="nascimento" name="nascimento" required>
-            <h3>Telefone:</h3>
-            <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx">
-            <h3>Email:</h3>
-            <input type="email" id="email" name="email" required placeholder="example@example.com">
-            <h3>Local:</h3>
-            <input type="text" id="local" name="local" required placeholder="Localidade">
-            <br>
-            <br>
-            <br>
-            <input type="submit" id="cadastrar" name="Cadastrar">
-        </form>
+    <div class="formContainer">
+        <div class="imagens">
+            <img src="src/imagens/ally.png" alt="Descrição da Ally">
+        </div>
+     <div class="formEimagens">
+            <div class="formCadastro">
+                <h2 class="tituloCadastro">Cadastre-se conosco</h2>
+                <form>
+                    <h3>Nome:</h3>
+                    <input type="text" id="nome" name="nome" required placeholder="Informe seu nome">
+                    <h3>Nascimento:</h3>
+                    <input type="text" id="nascimento" name="nascimento" required placeholder="dd/mm/yyyy"
+                        maxlength="10">
+                    <h3>Telefone:</h3>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx">
+                    <span class="validity"></span>
+                    <h3>Email:</h3>
+                    <input type="email" id="email" name="email" required placeholder="example@example.com">
+                    <span class="validity"></span>
+                    <h3>Local:</h3>
+                    <input type="text" id="local" name="local" required placeholder="Localidade">
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" id="cadastrar" name="Cadastrar">
+
+                </form>
+            </div>
+        </div>
+        <img src="src/imagens/nightborne.png" alt="Descrição dos nightborne">
     </div>
+    <script src="src/js/scriptFormulario.js"></script>
 </body>
 
 </html>
