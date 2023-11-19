@@ -1,4 +1,13 @@
 .descricaoJogo {
     margin: auto;
+    width: 80%;
+    text-align: justify; 
+    padding: 35px;
+}
+
+.listaExpansoes{
+    margin: auto;
+    width: 60%;
+    text-align: justify; 
     padding: 35px;
 }

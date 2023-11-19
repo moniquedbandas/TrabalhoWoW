@@ -1,0 +1,6 @@
+.descricaoBlizzard{
+    margin: auto;
+    width: 80%; /* Defina a largura máxima desejada */
+    text-align: justify; /* Opcional: justifica o texto */
+    padding: 35px;
+}

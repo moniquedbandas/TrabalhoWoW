@@ -67,3 +67,8 @@ body {
 .direitos{
     text-align: center;
 }
+
+.campoFaleConosco{
+    text-align: center;
+    justify-content: center;
+}
