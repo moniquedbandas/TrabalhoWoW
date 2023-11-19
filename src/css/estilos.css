@@ -22,7 +22,7 @@ body {
     left: 25rem;
     width: 120px;
     height: 100px;
-    background: url(../src/imagens/wowLogo.png) top left;
+    background: url(../imagens/wowLogo.png) top left;
     background-size: cover;
     z-index: 1000;
 }
