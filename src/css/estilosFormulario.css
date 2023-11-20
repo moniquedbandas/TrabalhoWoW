@@ -1,6 +1,6 @@
 .formContainer {
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 50px;
 }
 
@@ -20,11 +20,10 @@
 .formEImagens {
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    margin: auto;
-    width: 100%;
-    /* Ocupa toda a largura disponível */
+    justify-content: center;    /* Centraliza horizontalmente */
+    flex-direction: column;
+    margin-top: 50px;
+    /* width: 100%;    Ocupa toda a largura disponível */
 }
 
 /* Estilize o formulário conforme necessário */
