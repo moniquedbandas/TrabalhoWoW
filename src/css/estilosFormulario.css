@@ -1,38 +1,30 @@
-body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 0.9em;
-    background-color: rgba(231, 179, 110, 0.61);
-}
 .formContainer {
-    
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 50px;
 }
 
 .imagens {
     width: 200px;
     height: auto;
-    /* Mantém a proporção da imagem */
-    margin: 0 200px; /* Espaço entre as imagens e o formulário */
+    margin: auto;
 }
 
-/* Estilize as imagens */
-.formContainer img {
+.imagens2 {
     width: 200px;
-    /* Ajuste conforme necessário */
     height: auto;
-    /* Mantém a proporção da imagem */
-    margin-left: 50px;
+    margin: auto;
 }
 
 /* Estilize o contêiner das imagens e do formulário */
 .formEImagens {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centraliza horizontalmente */
-    margin: 0;
-    width: 100%; /* Ocupa toda a largura disponível */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    margin: auto;
+    width: 100%;
+    /* Ocupa toda a largura disponível */
 }
 
 /* Estilize o formulário conforme necessário */
