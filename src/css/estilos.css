@@ -68,13 +68,12 @@ body {
 footer{
     position: relative;
     bottom: 0;
-    width: 80%;
+    width: 50%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     /* height: auto; */
     background-color: #ac8585;
-    /* padding: 10px; */
 }
 
 .direitos{
