@@ -1,22 +1,22 @@
 .formContainer {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-top: 50px;
 }
 
 .imagens {
-    width: 200px;
+    width: 300px;
     height: auto;
     margin: auto;
 }
 
 .imagens2 {
-    width: 100px;
+    width: 300px;
     height: auto;
     margin: auto;
 }
 
-/* Estilize o contêiner das imagens e do formulário */
 .formEImagens {
     display: flex;
     align-items: center;
