@@ -6,13 +6,13 @@
 }
 
 .imagens {
-    width: 300px;
+    width: 400px;
     height: auto;
     margin: auto;
 }
 
 .imagens2 {
-    width: 300px;
+    width: 400px;
     height: auto;
     margin: auto;
 }
@@ -30,8 +30,8 @@
     background-color: rgba(128, 255, 0, 0.171);
     border-style: groove;
     max-width: 30rem;
-    padding: 20px;
-    width: 500px;
+    padding: 10px;
+    width: 600px;
 }
 
 .tituloCadastro {
