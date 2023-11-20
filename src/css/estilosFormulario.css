@@ -1,10 +1,8 @@
-/* .formCadastro {
-    border-style: groove;
-    margin: auto;
-    margin-top: 50px;
-    max-width: 30rem;
-    padding: 20px;
-} */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9em;
+    background-color: rgba(231, 179, 110, 0.61);
+}
 .formContainer {
     
     display: flex;
