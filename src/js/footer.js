@@ -10,6 +10,7 @@ function ajustarFooter() {
         footer.style.left = '50%'; /* Centraliza o lado esquerdo */
         footer.style.transform = 'translateX(-50%)'; /* Move 50% para trás */
         footer.style.width = '50%';
+        footer.style.marginTop = '30px';
         // footer.style.width = '50%';
         // footer.style.marginLeft = 'auto';
         // footer.style.marginRight = 'auto';
