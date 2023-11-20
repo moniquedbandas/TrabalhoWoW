@@ -19,7 +19,7 @@ body {
 .logo {
     position: absolute;
     top: -1em;
-    left: 25rem;
+    left: 15rem;
     width: 120px;
     height: 100px;
     background: url("../imagens/wowLogo.png") top left;

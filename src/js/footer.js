@@ -17,7 +17,6 @@ function ajustarFooter() {
         /**
          * Essencialmente, as propriedades left: 50% e transform: translateX(-50%) são o cerne dessa técnica para centralizar o footer horizontalmente. Elas posicionam o elemento de modo que seu centro fique no ponto médio horizontal da janela do navegador. Isso permite que o footer seja centralizado independentemente da largura da janela ou do conteúdo na página.
          */
-
     } else {
         footer.style.position = 'static'; //define a posição do footer como padrão
     }
