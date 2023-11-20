@@ -7,7 +7,7 @@ function ajustarFooter() {
     if (alturaConteudo <= alturaJanela) {
         footer.style.position = 'fixed'; //fixa a posição do footer
         footer.style.bottom = '0'; //e deixa o footer no final da pagina
-        footer.style.width = '100%';
+        // footer.style.width = '100%';
     } else {
         footer.style.position = 'static'; //define a posição do footer como padrão
     }
