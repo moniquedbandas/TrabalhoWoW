@@ -11,7 +11,7 @@
 }
 
 .imagens2 {
-    width: 200px;
+    width: 100px;
     height: auto;
     margin: auto;
 }
@@ -20,20 +20,18 @@
 .formEImagens {
     display: flex;
     align-items: center;
-    justify-content: center;    /* Centraliza horizontalmente */
+    justify-content: center;
     flex-direction: column;
     margin-top: 50px;
     /* width: 100%;    Ocupa toda a largura disponível */
 }
 
-/* Estilize o formulário conforme necessário */
 .formCadastro {
     background-color: rgba(128, 255, 0, 0.171);
     border-style: groove;
     max-width: 30rem;
     padding: 20px;
     width: 500px;
-    /* Ajuste conforme necessário */
 }
 
 .tituloCadastro {
@@ -41,22 +39,14 @@
 }
 
 input {
-    background-color: #f0f0f0;
-    /* Cor de fundo */
+    background-color: #f0f0f0;    
     color: #333;
-    /* Cor do texto */
     border: 1px solid #ccc;
-    /* Borda com cor cinza */
-    border-radius: 9px;
-    /* Bordas arredondadas */
-    padding: 8px;
-    /* Espaçamento interno */
-    margin: 6px;
-    /* Margens ao redor do input */
-    outline: none;
-    /* Tira as bordas pretas do input */
-    width: 400px;
-    /* Aumenta o tamanho da largura do input */
+    border-radius: 9px; /*Bordas arredondadas*/
+    padding: 8px;/* Espaçamento interno */
+    margin: 6px;/* Margens ao redor do input */
+    outline: none;/* Tira as bordas pretas do input */
+    width: 400px;/* Aumenta o tamanho da largura do input */
 }
 
 input:focus {
@@ -65,8 +55,7 @@ input:focus {
 }
 
 input:focus::placeholder {
-    color: transparent;
-    /* Torna o "placeholder" transparente quando focado */
+    color: transparent;/* Torna o "placeholder" transparente quando focado */
 }
 
 #cadastrar {
