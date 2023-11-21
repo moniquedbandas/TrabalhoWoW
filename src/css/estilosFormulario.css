@@ -24,7 +24,6 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-    /* width: 100%;     */
 }
 
 .formCadastro {
@@ -40,14 +39,19 @@
 }
 
 input {
-    background-color: #f0f0f0;    
+    background-color: #f0f0f0;
     color: #333;
     border: 1px solid #ccc;
-    border-radius: 9px; /*Bordas arredondadas*/
-    padding: 8px;/* Espaçamento interno */
-    margin: 6px;/* Margens ao redor do input */
-    outline: none;/* Tira as bordas pretas do input */
-    width: 400px;/* Aumenta o tamanho da largura do input */
+    border-radius: 9px;
+    /*Bordas arredondadas*/
+    padding: 8px;
+    /* Espaçamento interno */
+    margin: 6px;
+    /* Margens ao redor do input */
+    outline: none;
+    /* Tira as bordas pretas do input */
+    width: 400px;
+    /* Aumenta o tamanho da largura do input */
 }
 
 input:focus {
@@ -56,7 +60,8 @@ input:focus {
 }
 
 input:focus::placeholder {
-    color: transparent;/* Torna o "placeholder" transparente quando focado */
+    color: transparent;
+    /* Torna o "placeholder" transparente quando focado */
 }
 
 #cadastrar {

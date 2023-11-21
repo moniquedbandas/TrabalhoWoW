@@ -1,12 +1,6 @@
-body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.1em;
-    background-color: rgba(231, 179, 110, 0.61);
-}
-
-.descricaoBlizzard{
+.descricaoBlizzard {
     margin: auto;
-    width: 80%; /* Defina a largura máxima desejada */
-    text-align: justify; /* Opcional: justifica o texto */
+    width: 80%;
+    text-align: justify;
     padding: 35px;
 }

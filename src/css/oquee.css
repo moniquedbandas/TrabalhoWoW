@@ -1,19 +1,13 @@
-body {
-    font-family: 'Nunito', sans-serif;
-    font-size: 1em;
-    background-color: rgba(231, 179, 110, 0.61);
-}
-
 .descricaoJogo {
     margin: auto;
     width: 80%;
-    text-align: justify; 
+    text-align: justify;
     padding: 35px;
 }
 
-.listaExpansoes{
+.listaExpansoes {
     margin: auto;
     width: 60%;
-    text-align: justify; 
+    text-align: justify;
     padding: 35px;
 }
