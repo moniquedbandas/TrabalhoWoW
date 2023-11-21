@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-left: 100px;
 }
 
 .imagens {
@@ -12,7 +13,7 @@
 }
 
 .imagens2 {
-    width: 400px;
+    width: 410px;
     height: auto;
     margin: auto;
 }
@@ -23,7 +24,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-    /* width: 100%;    Ocupa toda a largura disponível */
+    /* width: 100%;     */
 }
 
 .formCadastro {
