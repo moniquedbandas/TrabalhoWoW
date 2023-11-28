@@ -1,27 +1,45 @@
-.cards .newSeason,
-.cards .portais {
+.imagemNoticia {
+    text-align: left;
+}
+
+.newSeason,
+.portais {
+    text-align: right;
+    margin: 50px;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     border-style: solid;
     border-radius: 5px;
     border: 1px solid;
-    border-color: rgb(95, 102, 4);
+    border-color: #b7c9a9;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     height: 100px;
     padding: 15px;
+    background-color: rgba(0, 0, 0, 0.438);
 }
 
-.textoPortais {
-    margin: auto;
-    width: 80%;
-    text-align: justify;
-    padding: 35px;
+.descricaoNoticia {
+    text-align: left;
+    color: antiquewhite;
 }
 
+.tituloNoticia {
+    text-align: center;
+    justify-content: center;
+}
+
+.textoPortais,
 .textoSeason {
     margin: auto;
     width: 80%;
     text-align: justify;
     padding: 35px;
+    color: #b7c9a9;
 }

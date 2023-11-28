@@ -27,7 +27,7 @@
 }
 
 .formCadastro {
-    background-color: rgba(128, 255, 0, 0.171);
+    background-color: #674d69;
     border-style: groove;
     max-width: 30rem;
     padding: 10px;
@@ -36,11 +36,16 @@
 
 .tituloCadastro {
     text-align: center;
+    color: #b7c9a9;
+}
+
+.tipoCad {
+    color: #b7c9a9;
 }
 
 input {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #f0f0f0c0;
+    /* color: ; */
     border: 1px solid #ccc;
     border-radius: 9px;
     /*Bordas arredondadas*/
@@ -65,7 +70,7 @@ input:focus::placeholder {
 }
 
 #cadastrar {
-    background-color: rgba(86, 87, 35, 0.541);
+    background-color: #ff7c70;
     margin: 0 auto;
     color: #111111;
     padding: 10px 20px;
@@ -74,10 +79,11 @@ input:focus::placeholder {
     width: 200px;
     cursor: pointer;
     display: block;
+    opacity: 0.8;
 }
 
 #cadastrar:hover {
-    background-color: rgb(245, 135, 10);
+    background-color: #f2dfb1;
 }
 
 input:invalid+span:after {

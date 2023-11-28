@@ -1,7 +1,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
-    background-color: rgba(231, 179, 110, 0.61);
+    background-color: #2e292e;
 }
 
 .slide {
@@ -16,7 +16,8 @@ body {
 }
 
 .titulo span {
-    background-color: #ac858542;
+    color: #b7c9a9;
+    font-size: 26px;
 }
 
 .logo {
@@ -33,8 +34,8 @@ body {
 .listaMenu {
     border-style: dotted;
     border-radius: 10px;
-    border-color: #ac8585;
-    background-color: #ac8585;
+    border-color: ##674d69;
+    background-color: #674d69;
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -55,7 +56,7 @@ body {
 }
 
 .listaMenu:hover {
-    background-color: rgba(168, 132, 13, 0.493);
+    background-color: #b7c9a9;
 }
 
 .selecaoFotos {
@@ -72,11 +73,20 @@ body {
 footer {
     position: relative;
     bottom: 0;
-    width: 50%;
+    color: #b7c9a9;
+    /* width: 100%; */
     text-align: center;
     margin-top: 20px;
     margin: auto;
-    background-color: #ac8585;
+    background-color: #674d69;
     text-align: center;
     justify-content: center;
+}
+
+.descricaoJogo,
+.descricaoBlizzard,
+.listaExpansoes,
+.menuLi,
+.direitos {
+    color: #b7c9a9;
 }

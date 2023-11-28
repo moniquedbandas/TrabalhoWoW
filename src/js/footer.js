@@ -9,7 +9,7 @@ function ajustarFooter() {
         footer.style.bottom = '0'; //e deixa o footer no final da pagina       
         footer.style.left = '50%'; /* Centraliza o lado esquerdo */
         footer.style.transform = 'translateX(-50%)'; /* Move 50% para trás */
-        footer.style.width = '50%';
+        footer.style.width = '100%';
         footer.style.marginTop = '30px';
         // footer.style.width = '50%';
         // footer.style.marginLeft = 'auto';
