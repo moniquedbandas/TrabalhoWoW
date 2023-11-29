@@ -1,0 +1,29 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title {
+    color: #674d69;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+a:hover {
+    opacity: 0.6;
+}
