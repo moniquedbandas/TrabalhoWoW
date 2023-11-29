@@ -2,6 +2,8 @@ body {
     font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
     background-color: #2e292e;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .slide {
@@ -32,9 +34,8 @@ body {
 }
 
 .listaMenu {
-    border-style: dotted;
     border-radius: 10px;
-    border-color: ##674d69;
+    border-color: #674d69;
     background-color: #674d69;
     list-style-type: none;
     text-align: center;
@@ -70,19 +71,6 @@ body {
     height: auto;
 }
 
-footer {
-    position: relative;
-    bottom: 0;
-    color: #b7c9a9;
-    /* width: 100%; */
-    text-align: center;
-    margin-top: 20px;
-    margin: auto;
-    background-color: #674d69;
-    text-align: center;
-    justify-content: center;
-}
-
 .descricaoJogo,
 .descricaoBlizzard,
 .listaExpansoes,
@@ -90,3 +78,13 @@ footer {
 .direitos {
     color: #b7c9a9;
 }
+
+footer {
+    position: relative;
+    bottom: 0;
+    color: #b7c9a9;
+    text-align: center;
+    background-color: #674d69;
+    border-radius: 10px;
+}
+
