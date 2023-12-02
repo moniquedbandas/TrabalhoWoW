@@ -1,7 +1,7 @@
 .card-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: ; */
     margin-top: 20px;
 }
 
@@ -25,5 +25,9 @@ a {
 }
 
 a:hover {
-    opacity: 0.6;
+    opacity: 0.4;
 }
+
+/* .logo{
+    size: 60%;
+} */

@@ -25,7 +25,7 @@ body {
 .logo {
     position: absolute;
     top: 0px;
-    left: 26rem;
+    left: 23rem;
     width: 120px;
     height: 100px;
     background: url("../imagens/wowLogo.png") top left;
@@ -86,4 +86,9 @@ footer {
     text-align: center;
     background-color: #674d69;
     border-radius: 10px;
+    opacity: 0.8;
+}
+
+.descricaoClasse{
+    color: #b7c9a9;
 }
