@@ -91,4 +91,6 @@ footer {
 
 .descricaoClasse{
     color: #b7c9a9;
+    text-align: justify;
+    text-decoration-thickness: 0.9;
 }
