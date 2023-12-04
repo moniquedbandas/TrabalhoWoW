@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.title, a {
+.title, .classe {
     color: #674d69;
     font-size: 17px;
     text-decoration: none;
