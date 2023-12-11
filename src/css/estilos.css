@@ -1,10 +1,14 @@
-body {
+body /*.noDarkMode*/ {
     font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
     background-color: #2e292e;
     margin-left: 300px;
     margin-right: 300px;
 }
+/* 
+ body .darkMode{
+    background-color: black;
+} */
 
 .slide {
     display: none;
@@ -33,17 +37,30 @@ body {
     z-index: 1000;
 }
 
+#noturnoON{
+    position: absolute;
+    top:50px;
+    right: 23rem;
+    width: 50px;
+    height: 30px;
+    border: solid 1px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #b7c9a9;
+    /* z-index: -1000; */
+}
+
 .listaMenu {
     border-radius: 10px;
     border-color: #674d69;
     background-color: #674d69;
+    color: #b7c9a9;
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-
 .menuLi {
     display: inline-block;
     margin: 5px;
@@ -76,13 +93,13 @@ body {
 .listaExpansoes,
 .menuLi,
 .direitos {
-    color: #b7c9a9;
+    color: #5f7a48;
 }
 
 footer {
     position: relative;
     bottom: 0;
-    color: #b7c9a9;
+    color: #5f7a48;
     text-align: center;
     background-color: #674d69;
     border-radius: 10px;

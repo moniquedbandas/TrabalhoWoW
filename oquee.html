@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="src/css/estilos.css">
     <link rel="stylesheet" href="src/css/oquee.css">
     <title>World of Warcraft: where the magic becomes reality</title>
 </head>
 
-<body>
+<body id="corpo">
     <header class="princ">
         <h3 class="titulo"><span>O melhor MMORPG DO MERCADO!</span></h3>
         <br>
@@ -20,6 +21,9 @@
         <a href="index.html">
             <div class="logo"></div>
         </a>
+        <button id="noturnoON">
+            <i class="fas fa-moon"></i>
+        </button>
     </header>
     <nav>
         <ul class="listaMenu">
@@ -182,6 +186,7 @@
         <p class="direitos"><b>&copy;2023 Blizzordia. All rights reserved</b></p>
     </footer>
     <script src="src/js/footer.js"></script>
+    <script src="src/js/noturno.js"></script>
 </body>
 
 </html>
