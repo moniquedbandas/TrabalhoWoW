@@ -76,7 +76,7 @@ body {
 }
 
 .listaMenu:hover {
-    background-color: #b7c9a9;
+    background-color: #4b5743;
 }
 
 .selecaoFotos {
@@ -88,6 +88,14 @@ body {
     margin: 0 auto;
     max-width: 60%;
     height: auto;
+}
+
+h4 {
+    color: #b7c9a9;
+}
+
+a:visited {
+    color: #d993dd;
 }
 
 .descricaoJogo,
